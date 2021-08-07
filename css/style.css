@@ -1,0 +1,695 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: 'Muli', sans-serif;
+
+}
+/* start header */
+.header{
+    display: flex;
+    justify-content: space-between;
+    
+    padding: 10px;
+    border-top: 5px solid #29ca8e;
+    width:auto;
+    margin-bottom: -51px;
+    
+    padding-top: 0px;
+    transition: 0.5s;
+}
+.header div{
+    margin: 10px;
+    margin-top: 27px;
+}
+.header .text1 p{
+    position: relative;
+    left:  60px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+
+}
+
+.header .nav a{
+    padding: 30px 20px 31px 20px;
+    margin: 5px;
+    text-decoration: none;
+    color: black;
+    letter-spacing: 1px;
+    transition: 0.5s;
+}
+.header .nav a:hover{
+    background-color: #29ca8e;
+}
+.icon{
+    position: relative;
+    left: -30px;
+    padding: 30px 20px 31px 45px;
+    bottom: 28px;
+    cursor: pointer;
+    transition: 0.5s;
+
+}
+.icon:hover{
+    background-color:#29ca8e ;
+}
+.header .icon img{
+    width: 30px;
+    height: 30px;
+    padding: 5px;
+    color: white;
+    background-color: green;
+    border-radius: 15px;
+    position: absolute;
+    right: 125px;
+    top: 23px;
+}
+/* end header */
+.cont1{
+    background-image: url(../images/slider-image1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: calc(100vw - 17px);
+    height: 100vh;
+    position: relative;
+    filter: brightness(0.9);
+}
+.cont1 div {
+    color: white;
+    line-height: 30px;
+    padding-top: 100px;
+    padding-right: 30px;
+    position: absolute;
+    left: 120px;
+    top: 100px;
+    font-family: 'Muli', sans-serif;
+
+}
+.cont1 div h1{
+    width: 450px;
+    font-size: 40px;
+    line-height: 50px;
+    color: white;
+    filter: drop-shadow(2px 4px 6px black);
+
+ 
+}
+.cont1 div p{
+    width: 600px;
+    font-size: 15px;
+    line-height: 30px;
+    color: white;
+    padding: 10px;
+    filter: drop-shadow(2px 4px 6px black);
+
+
+}
+.cont1 div button{
+    width: 150px;
+    height: 50px;
+    border-radius: 50px;
+    background: transparent;
+    color: white;
+    border: 1px solid white;
+    position: absolute;
+    top: 300px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.cont1 div button:hover{
+    background-color: white;
+    color: black;
+}
+.cont2 {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 100px;
+    margin-bottom: 150px;
+
+}
+.cont2 div {
+    border: 0.2px solid #f3ebeb;
+    padding: 70px 20px 70px 20px;
+    line-height: 25px;
+}
+.cont2 div p{
+    width: 300px;
+    padding: 10px;
+    font-size: 15px;
+}
+.cont2 div h1{
+    width: 60px;
+    height: 60px;
+    background-color: rgb(89, 25, 209);
+    text-align: center;
+    border-radius: 30px;
+    line-height: 60px;
+    color: white;
+    margin-left: 10px;
+    transition: 0.5s;
+    cursor: pointer;
+}
+.cont2 div h1:hover{
+    background-color:#29ca8e ;
+}
+.cont2 div h2{
+    padding: 10px;
+    font-size: 20px;
+}
+.cont3 {
+    display: flex;
+    position: relative;
+    top: 100px;
+justify-content: space-between;
+}
+.nav .text2{
+    padding: 10px;
+    margin: 10px;
+    position: absolute;
+    top: -70px;
+    left: 100px;
+    font-size: 20px;
+    font-weight: bold;
+
+}
+.nav .text2 p{
+    position: relative;
+    left: -50px;
+    line-height: 36px;
+    font-size: 25px;
+    opacity: 0.2px;
+    
+}
+
+.nav div h3{
+    padding: 20px;
+    left:  60px;
+    position: relative;
+}
+.nav div span i {
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+    background-color: #29ca8e;
+    text-align: center;
+    line-height: 50px;
+    position: relative;
+    top: 30px;
+    left: -11px;
+    color: white;
+    transition: 0.5s;
+    cursor: pointer;
+
+}
+.nav div span i:hover{
+    background-color: blue;
+}
+.nav div p{
+    width: 500px;
+    position: relative;
+    left: 138px;
+    top: -25px;
+
+    line-height: 20px;
+    font-size: 15px;
+    
+    margin-bottom: -20px;
+
+
+}
+.login{
+    width: 450px;
+    height: 450px;
+    border-radius: 225px;
+    background-color: #312f2f
+    ;
+    position: relative;
+    left: -145px;
+    bottom: 40px;
+}
+.login:hover{
+    background-color: rgb(15, 15, 15);
+    
+}
+
+.login div.form{
+    padding: 3px;
+    position: relative;
+    top: 135px;
+    left: 75px;
+   
+    
+   
+}
+.login div.form p{
+    color: white;
+    position: relative;
+    left: 70px;
+    top: -30px;
+    font-weight: bolder;
+    font-size: 30px;
+}
+.login div.form input{
+    padding: 5px;
+    margin: 10px;
+    width: 300px;
+    border: none;
+    background: transparent;
+    border-bottom: 2px solid #5d5151;
+    
+
+}
+.login div.form input:focus{
+    outline: none;
+    color: white;
+}
+.login div.form button{
+    width: 150px;
+    height: 50px;
+    border-radius: 40px;
+    position: relative;
+    left: 85px;
+    border: none;
+    margin-top: 20px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.login div.form button:hover{
+    background-color: rgb(41, 41, 160);
+}
+.teachers{
+    margin-top: 120px;
+    background-color: #f9f9f9;
+    padding-bottom:100px ;
+}
+.head{
+    text-align: center;
+    padding: 100px;
+    margin-top: 120px;
+    font-size: 20px;
+}
+.teachers .imges{
+    display: flex;
+    justify-content: space-around;
+
+    padding: 0px 50px 0px 50px;
+   
+    
+
+}
+
+
+.teachers .imges h3{
+    margin-bottom: 2px ;
+}
+.teachers div img {
+    width: 280px;
+    height: 300px;
+    
+}
+.teachers div .text5{
+    background-color: white;
+    margin-top: -4px;
+    padding: 30px;
+}
+
+.teachers div .link{
+    
+    background-color: white;
+   
+    padding: 20px;
+}
+hr{
+    opacity: 0.4;
+}
+.teachers div a{
+    color: black;
+    text-decoration: none;
+    text-align: center;
+    line-height: 40px;
+   
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    transition: 0.5s;
+    
+}
+.teachers div a:hover{
+    background-color: #29ca8e;
+    color: white;
+}
+
+.Courses .Courses2 {
+    display: grid;
+    grid-template-columns: auto auto  auto;
+    grid-template-rows: auto;
+    justify-content: space-evenly;
+    
+} 
+.Courses .Courses2 img{
+    width: 350px;
+    height: 250px;
+}
+.Courses .text6{
+    text-align: center;
+    font-size: 25px;
+    margin-top: 50px;
+    padding: 80px;
+    line-height: 35px;
+
+}
+.Courses .text6 p{
+    color: rgb(112, 98, 98);
+}
+.Courses .text7{
+    background-color: #eee;
+    padding: 20px;
+    line-height: 25px;
+    width: 350px;
+    margin-top: -30px;
+}
+
+.Courses .text7 h3 {
+    margin-bottom: 0px;
+    
+
+}
+.Courses .text7 .ma{
+    margin-top: 15px;
+    margin-bottom: -20px;
+}
+.Courses .text7 hr{
+    margin-top: 25px;
+}
+
+.Courses .text7 .ma img{
+    width: 60px;
+    height: 60px;
+    border-radius: 30px; 
+}
+.Courses .text7 .ma span{
+    position: relative;
+    top: -25px;
+    left: 15px;
+}
+.Courses .text7 .ma button{
+    position: relative;
+    top: -25px;
+    left: 200px;
+    width: 100px;
+    height: 30px;
+    background-color: #29ca8e;
+    border: none;
+    color: white;
+    cursor: pointer;
+    border-radius: 3px;
+    transition: 0.5s;
+    
+}
+.Courses .text7 .ma button:hover{
+    background-color: blue;
+}
+
+
+
+.tim{
+    position: relative;
+}
+.tim span{
+    position: relative;
+    
+    left: 15px;
+    bottom: 35px;
+    color: white;
+    font-weight: bold;
+    filter: drop-shadow(2px 4px 6px black);
+    margin-left: 5px;
+
+}
+.bu{
+    display: flex;
+    justify-content: center;
+    margin: 50px;
+}
+.bu button{
+    width: 30px;
+    height: 30px;
+    margin: 3px;
+    background-color: rgb(211, 203, 211);
+    border:none;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.bu button:hover{
+    background-color:rgb(131, 118, 131) ;
+}
+.cont5{
+    background-color: #eee;
+    padding: 60px;
+    padding-bottom: 120px;
+}
+.text8{
+    text-align: center;
+    padding: 5px;
+    padding-bottom: 40px;
+}
+.radwa{
+    display:flex;
+    justify-content: space-evenly;
+}
+.cont5 .radwa img {
+    width: 60px ;
+    height: 60px ;
+    border-radius: 30px;
+
+}
+.cont5 .radwa2{
+    background-color: white;
+    width: 350px;
+    height: 350px;
+    padding: 50px;
+    position: relative;
+    
+}
+.cont5 .radwa2 .text9{
+    position: relative;
+    bottom: 53px;
+    left: 70px;
+}
+.cont5 .radwa2 .par{
+    line-height: 25px;
+    color:rgb(112, 98, 98) ;
+}
+.cont5 .radwa2 .star {
+    margin: 10px 0px 0px -4px;
+
+}
+.cont5 .radwa2 .star span{
+    color: blue;
+    font-size: 13px;
+}
+.point{
+    position: relative;
+    padding-bottom: 100px;
+}
+.point span{
+    position: relative;
+    top: 400px;
+    right: 550px;
+    font-size: 10px;
+    color: rgb(160, 145, 145);
+   
+    
+}
+
+.point span i{
+    padding: 5px;
+    transition: 0.5s;
+    
+}
+.point span i:hover{
+    color: rgb(37, 33, 33);
+}
+.contact{
+    background-color: #5454d6;
+}
+.contact .text10{
+    padding-top: 140px;
+    margin-left: 110px;
+    margin-bottom: -80px;
+    color: white;
+    line-height: 30px;
+    font-size: 20px;
+}
+.contact .conta {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 50px;
+
+    
+}
+.contact .conta .form{
+    width: 100%;
+    display: grid;
+    justify-self: center;
+    padding: 50px;
+    
+} 
+.contact .conta .form input{
+    padding: 10px;
+    margin: 5px;
+    border-radius: 5px ;
+    border: none;
+    outline: none;
+}
+
+.contact .conta .form textarea{
+    padding: 10px;
+    margin: 5px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+
+}
+.contact .conta .form button{
+    padding: 10px;
+    margin: 5px;
+    width: 40%;
+    height: 50px;
+    border-radius: 30px;
+    border: none;
+    outline: none;
+    transition: 0.5s;
+    cursor: pointer;
+    
+}
+.contact .conta .form button:hover{
+    background-color: #5454d6;
+    border: 1px solid white;
+   
+}
+.contact .conta div img{
+    width: 100%;
+    height: 90%;
+    cursor: pointer;
+    padding-bottom: 50px;
+    transition: 0.5s;
+    
+}
+.contact .conta div img:hover{
+    opacity: 0.8;
+    
+
+}
+.footer{
+    background-color: rgb(27, 25, 25);
+    color: white;
+    display: flex;
+    padding: 100px;
+    justify-content: space-between;
+    margin-top: -50px;
+}
+
+.Headquarter{
+    margin: 10px;
+    padding: 10px;
+    line-height: 40px;
+
+}
+.Headquarter p{
+    width: 250px;
+    color:rgb(112, 98, 98) ;
+    margin-bottom: 20px;
+}
+.Headquarter span a{
+    color: #29ca8e;
+    text-decoration: none;
+    width: 40px;
+    margin: 0 auto;
+    text-align: center;
+    height: 40px;
+    line-height: 40px;
+    border-radius: 20px;
+    
+}
+.Headquarter span a:hover{
+    color: white;
+    background-color:#29ca8e ;
+}
+.ContactInfo{
+    margin: 10px;
+    padding: 10px;
+    line-height: 40px;
+
+}
+.ContactInfo p{
+    margin-bottom: 10px;
+}
+.ContactInfo a{
+    text-decoration: none;
+    padding: 5px;
+    color:rgb(112, 98, 98) ;
+    transition: 0.5s;
+
+}
+.ContactInfo a:hover{
+    color: #29ca8e;
+
+}
+.NewsletterSignup{
+    margin: 10px;
+    padding: 10px;
+    line-height: 40px;
+
+}
+.NewsletterSignup p{
+    font-size: 20px;
+
+}
+.NewsletterSignup input{
+    background-color: transparent;
+    border: none;
+    width: 80%;
+    outline: none;
+
+}
+.NewsletterSignup input:hover{
+    color: white;
+}
+.NewsletterSignup  hr{
+    width: 80%;
+    opacity: 0.2;
+    
+    
+}
+.NewsletterSignup button {
+    width: 160px;
+    height: 50px;
+    background-color: transparent;
+    color: white;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    border-radius: 30px;
+    border: 1px solid white;
+    cursor: pointer;
+}
+.NewsletterSignup button:hover{
+    background-color:#29ca8e ;
+    border: 1px solid white;
+}
+.NewsletterSignup .t{
+    color:rgb(112, 98, 98) ;
+    font-size: 15px;
+}
+
+
+
+
+
+
+
+
+
+
